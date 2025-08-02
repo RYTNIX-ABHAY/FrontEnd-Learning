@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    /* margin-left: 20px; */
+    position: relative;
+    left: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.head{
+    position:sticky;
+    top: 0;
+    background-color: #e1d0d0;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.sea{
+    position: relative;
+    left: 20px;
+    padding-top: 30px;
+   
+
+}
+.id{
+    margin-left: 10px;
+    border: none;
+    background-color: #e1d0d0;
+}
+.id:hover{
+    box-shadow: 2px 2px red;
+}
+.search{
+    text-align: center;
+    border-radius: 30px;
+    border: n;
+    margin-top: 30px;
+    height: 30px;
+    width: 500px;
+}
+.pro{
+    padding-top: 30px; 
+}
+.mid{
+    justify-content: center;
+    padding-top: 10px;
+  background-color: rgb(231, 231, 222);  
+}
+.card{
+    background-color: rgb(109, 159, 109);
+    color: white;
+}
+.foot{padding-left: 80px;
+    padding-top: 100px;
+    background-color: rgb(231, 231, 222);  
+    display: flex;
+    gap: 20px;
+}
+.men{
+    display: flex;
+    /* gap: 40px; */
+    flex-direction: column;
+}
+.o{
+background-color: rgb(231, 231, 222);  
+  border: none;  
+  width: 100px;
+  margin-top: 10px;
+}

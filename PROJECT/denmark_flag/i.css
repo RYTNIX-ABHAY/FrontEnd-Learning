@@ -1,0 +1,31 @@
+
+*{
+    margin:0;
+}.f{
+    background-color: red;
+  width: 35vw;
+  height: 50vh;
+  /* margin: 20px; */
+  display: inline-block;
+}
+.s{
+    background-color: red;
+ width: 60vw;
+ height: 50vh;
+ /* margin: 20px; */
+ display: inline-block;
+}
+.ft{
+    background-color: red;
+  width: 35vw;
+  height:50vh;
+  /* margin: 20px; */
+  display: inline-block;
+}
+.st{
+    background-color: red;
+ width:60vw;
+ height: 50vh;
+ /* margin: 20px; */
+ display: inline-block;
+}

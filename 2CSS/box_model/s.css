@@ -1,0 +1,19 @@
+h1{
+    background-color: aquamarine;
+    width: 200px;
+    height: auto;
+  
+
+    /*border*/
+    /* border-width: 200%;
+    border-style: solid;
+    border-color: blue; */
+    border: 5px solid red;
+    border-radius: 3px;
+
+    /* padding */
+    padding: 20px;
+    /* margin  */
+    margin: 20px;
+    box-sizing: border-box;
+}

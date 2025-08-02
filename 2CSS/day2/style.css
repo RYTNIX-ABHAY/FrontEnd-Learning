@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    /* color may be of diff types here are :
+    1.simple color 
+    2.rgb
+    3.hexadecimal #a6f3b2
+    4.hsl */
+    
+    background-color: aqua;
+
+   /* fonts 
+    */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;/* px,rem,em,%,vw,vh*/
+
+
+}
+body{
+    background-color: aquamarine;
+    /* we can also inset image :
+    background-image: url(./pexels-willpicturethis-1954524.jpg);
+    /* to make it for full size of screen :  
+    background-size: cover; */
+
+}
+

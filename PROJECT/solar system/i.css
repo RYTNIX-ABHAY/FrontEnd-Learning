@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:#1a160f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.orb{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* background-color: #fff; */
+}
+.sun{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:#FFD700;
+    position:absolute;
+    right: 70px;
+    bottom: 70px;
+}
+.mercury{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#A9A9A9 ;
+    animation-name: mer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mer {
+    from{
+     transform: rotate(0deg) translate(200px);
+    }
+    to{
+        transform: rotate(360deg) translate(200px);
+    }
+    
+}
+
+.venus{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:#A0522D ;
+    animation-name: ven;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ven {
+    from{
+     transform: rotate(0deg) translate(280px);
+    }
+    to{
+        transform: rotate(360deg) translate(280px);
+    }
+    
+}
+.earth{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:#2A75BB ;
+    animation-name: ear;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ear {
+    from{
+     transform: rotate(0deg) translate(390px);
+    }
+    to{
+        transform: rotate(360deg) translate(390px);
+    }
+    
+}

@@ -1,0 +1,39 @@
+.con{
+    background-color: aqua;
+    height: 200vh;
+}
+.b{
+    display: inline-block;
+   
+}  
+
+/* relative,fixed , absolute,sticky  */
+.f{
+   background-color: rgb(59, 121, 184);
+   height:100px ;
+   width:100px ;
+   position: fixed;
+}
+.s{
+    background-color: rgba(45, 178, 36, 0.21);
+    height:100px ;
+   width:100px ;
+   position: relative;
+   top: 20px;
+   left: 20px;
+}
+.t{
+    background-color: rgb(179, 116, 34);
+    height:100px ;
+   width:100px ;
+   position: absolute;
+   bottom: 2px;
+   left: 400px;
+}
+.fr{
+    background-color: rgba(194, 68, 87, 0.781);
+    height:100px ;
+   width:100px ;
+   position: sticky;
+   top: 2px;
+}

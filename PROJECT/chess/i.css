@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0; /* Reset padding for consistency */
+    box-sizing: border-box; /* Keep box-sizing reset */
+}
+.con {
+    height: 50vw;
+    width: 50vw;
+    padding: 60px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Cleaner way to define columns */
+    grid-template-rows: repeat(8, 1fr);   /* Cleaner way to define rows */
+}
+.w {
+    background-color: white;
+}
+.b {
+    background-color: black;
+}

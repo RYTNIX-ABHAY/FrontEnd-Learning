@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    background-color:red ;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.book{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.nav{
+    display: flex;
+   
+}
+.a{
+    margin: 5px;
+    
+}
+@media(max-width:500px){
+    .name{
+        flex-direction: column;
+    }
+    
+    .book{
+        font-size: 15px;
+    }
+}
+
+/* second */
+.search{
+    background-color:grey;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+margin: 7px;
+border-radius: 20px;
+border: none;
+height: 30px;
+width: 50px;
+background-color: red;
+}
+.ok{
+    border-radius: 20px;
+    height:30px ;
+    width: 250px;
+    max-width: 60%;
+    border: none;
+}
+
+
+@media(max-width:500px){
+    .search{
+        flex-direction: column;
+    }
+    .ok{
+        margin-top: 5px;
+    }
+}
+
+
+/* third  */
+.int{
+    width: 100vw;
+   background-color: blue;
+    background-image: url(./cinema.jpg) ;
+   
+     background-size: 300px 200px;
+    
+    background-repeat: repeat;
+
+}
+.x{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.best{
+
+
+    background-color: black;
+    font-size: 25px;
+    color: white ;
+}
+
+
+
+/* @media(max-width:500px){
+    
+} */
+
+
+
+
+
+
+
+/* fourth  */
+.movies{
+    width: 100vw;
+}
+.P{
+text-align: center;
+
+ font-weight: 500px;
+ font-size: 30px;
+ margin-top: 10px;
+}
+.cards{
+    
+    display: flex;
+    overflow-x: scroll;
+
+}
+.c>p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.c:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px gray;
+}
+.src{
+    text-align: center;
+    width: 200px;
+   height: 300px;
+}
+.c{
+   
+    margin-left: 1rem;
+    text-align: center;
+    
+     border-radius: 20px;
+    /* padding: 10px; */
+    
+
+}
+
+@media(max-width:500px){
+    .cards{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    
+
+    .P{
+        font-size: 12px;
+    }
+   
+}
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.bot>img{
+   max-width: 80%;
+   border-radius: 20px;
+    /* height: 200px; */
+}

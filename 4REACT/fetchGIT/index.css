@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.he{
+    background-color: rgb(108, 108, 229);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.ma{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+img{
+    margin-top: 5px;
+    height: 200px;
+    border-radius: 20px;
+}
+.card{
+   height: 300px;
+   width: 210px;
+   border: 2px solid black;
+   margin-left: 20px;
+   border-radius: 10px;
+   text-align: center;
+   background-color: #ede5e5;
+
+}
+.but{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+button{
+    height: 25px;
+    background-color: rgb(3, 3, 5);
+    color: wheat;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+input{
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}

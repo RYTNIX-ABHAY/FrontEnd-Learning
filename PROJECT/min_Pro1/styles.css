@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #faf0f0;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    height: 260px;
+    width: 220px;
+    margin: 20px;
+    border: 2px solid #faf0f0;
+    border-radius: 23px;
+    
+   
+}
+.card:hover{
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px silver;
+}
+.image{
+    position: relative;
+}
+.img{
+    height: 180px;
+    width: 180px;
+    margin-top: 3px;
+    border-radius: 23px;
+    margin-left: 18px;
+
+}
+.off{
+    position: absolute;
+    bottom: 20px;
+    left: 21px;
+    background-color: rgba(215, 57, 57, 0.715);
+
+}
+.rest{
+    /* display: inline-block; */
+    position: relative;
+}
+.name{
+    display: inline-block;
+    margin-left: 10px;
+}
+.rate{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+
+}
+
+.type{
+  
+    margin-top: 8px;
+    position: relative;
+}
+.item{
+    display: inline-block;
+    margin-left: 10px;
+    /* overflow: hidden; */
+    
+
+
+}
+.price{
+   display: inline-block;
+   /* margin-left: 20px; */
+  position: absolute;
+  right: 0px;
+}
+.distance{
+    position: relative;
+}
+
+.diss{
+    display: inline-block;
+  ;position: absolute;
+  top: 5px;
+  right: 8px;
+
+    
+}
+.type{
+    font-size: 15px;
+    color: rgba(134, 87, 87, 0.824);
+}

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main{
+    text-align: center;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+#res{
+    margin-top: 5px;
+    font-size: 30px;
+}

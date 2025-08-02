@@ -1,0 +1,33 @@
+h1{
+    color: aquamarine;
+}
+
+/* selectors
+1.element 
+h1{
+
+}
+2.class
+.x{
+
+}
+3.id
+#w{
+
+}
+4.universal
+*{
+
+}
+5.group
+    h1,p,div{
+
+    }
+6.child
+div>p{
+
+}
+7.descender
+div p{
+    
+} */

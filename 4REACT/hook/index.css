@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    background-color:black;
+    color: wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ok{
+    background-color: #b6abab;
+    height: 190px;
+    width: 300px;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 90px;
+    margin-right: 20px;
+}

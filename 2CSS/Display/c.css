@@ -1,0 +1,14 @@
+div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+
+}
+span{
+    background-color: rgba(142, 142, 35, 0.47);
+    /* yha pe ham height aur width fix nhi kr skte*/
+    display: inline-block; /*extra ability to make h & w*/
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}

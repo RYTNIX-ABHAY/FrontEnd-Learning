@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: palegoldenrod;
+    height: 700px;
+}
+.box1 ,.box2,.box3,.box4{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: #fff;
+}
+.box4{
+    background-color: firebrick;
+}
+.container{
+    display: flex;
+    /* justify-content: ; ye hota hai main line ke a/c , ki usko horzontally kidar le jana hai?*/
+    /* justify-content: start;  default */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: ;  ye hota hai cross line ke according , ki usko vertical line ke according kidhar le jana hai? */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* align-items: end; */
+
+    /* flex-wrap: ; ye hota hai ki jab ham website ko responsive bnate hai toh size kam krte same to uapr se niche aa jane!*/
+    flex-wrap: wrap;
+
+    /* align-content: ; after applying wrap : ab content ke bix=ch gap kaesa rkna hai?*/
+    /* align-content: start; */
+
+}

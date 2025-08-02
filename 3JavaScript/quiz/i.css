@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bcafaf;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.quiz{
+    background-color: #fff;
+    border: 2px solid rgb(103, 92, 92);
+    border-radius: 5px;
+    width: 50vw;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+button{
+width: 100%;
+background-color: red;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
