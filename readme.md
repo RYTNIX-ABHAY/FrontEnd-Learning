@@ -11,7 +11,7 @@ Welcome to my **Frontend Development Journey**! This repository is a collection 
 - **JavaScript (ES6+)**
 - **React.js**
 - **Bootstrap**
-- **Parcel / Vite**
+- **Parcel**
 - **VS Code**
 - **Git & GitHub**
 
