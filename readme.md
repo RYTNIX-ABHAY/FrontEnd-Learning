@@ -34,10 +34,10 @@ Welcome to my **Frontend Development Journey**! This repository is a collection 
 
 | Project Name            | Description                                 | Link                           |
 |------------------------|---------------------------------------------|--------------------------------|
-| Password Generator     | Generates strong random passwords            | [Live](#) • [Code](#)         |
-| GitHub Profile Fetcher | Shows profile data from GitHub API          | [Live](#) • [Code](#)         |
-| Stopwatch              | Simple start/stop/reset timer               | [Live](https://lovely-squirrel-db3e5c.netlify.app/) • [Code](#) |
-| CRUD App               | Full CRUD using React + Express + MongoDB   | [Live](#) • [Code](#)         |
+| Password Generator     | Generates strong random passwords            |         |
+| GitHub Profile Fetcher | Shows profile data from GitHub API          |          |
+| Stopwatch              | Simple start/stop/reset timer               | [Live](https://lovely-squirrel-db3e5c.netlify.app/)|
+| CRUD App               | Full CRUD using React + Express + MongoDB   |          |
 
 ---
 
