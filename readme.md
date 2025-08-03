@@ -56,7 +56,7 @@ Welcome to my **Frontend Development Journey**! This repository is a collection 
 
 ## 🤝 Let's Connect
 
-If you’re also learning frontend or have suggestions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/abhay-pratap-123/).
+If you’re also learning frontend or have suggestions, feel free to connect with me on [LinkedIn](www.linkedin.com/in/abhay-pratap-singh-a522532a4).
 
 ---
 
